@@ -1,0 +1,8 @@
+extends:
+  - metalab
+  - metalab/react
+rules:
+  func-style: 0
+globals:
+  # Environment variables are injected as `process.env.ENV_VAR` by webpack.
+  process: true
