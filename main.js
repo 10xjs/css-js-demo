@@ -19988,13 +19988,13 @@ var Config = function Config() {
         (0, _react.createElement)(
           _code2.default,
           null,
-          '.css\';'
+          '.css'
         ),
         ' and ',
         (0, _react.createElement)(
           _code2.default,
           null,
-          '\';'
+          '.js'
         ),
         ' files in the project.'
       ),
@@ -20013,7 +20013,7 @@ var Config = function Config() {
         (0, _react.createElement)(
           _sourceLink2.default,
           null,
-          'src/config/breakpoint.config\';'
+          'src/config/breakpoint.config.js'
         )
       ),
       (0, _react.createElement)(_breakpointList2.default, null),
@@ -20032,7 +20032,7 @@ var Config = function Config() {
         (0, _react.createElement)(
           _code2.default,
           null,
-          'src/config/color.config\';'
+          'src/config/color.config.js'
         )
       ),
       (0, _react.createElement)(_colorList2.default, null),
@@ -20051,7 +20051,7 @@ var Config = function Config() {
         (0, _react.createElement)(
           _code2.default,
           null,
-          'src/config/layout.config\';'
+          'src/config/layout.config.js'
         )
       ),
       (0, _react.createElement)(_layoutList2.default, null),
@@ -20070,7 +20070,7 @@ var Config = function Config() {
         (0, _react.createElement)(
           _code2.default,
           null,
-          'src/config/layout.typography\';'
+          'src/config/layout.typography.js'
         )
       ),
       (0, _react.createElement)(_typographyList2.default, null)
@@ -20650,7 +20650,7 @@ var Landing = function Landing() {
           (0, _react.createElement)(
             'code',
             null,
-            '.css\';'
+            '.css.js'
           ),
           ' files.'
         ),
@@ -20661,7 +20661,7 @@ var Landing = function Landing() {
           (0, _react.createElement)(
             'code',
             null,
-            '.css\';'
+            '.css.js'
           ),
           ' file exports are converted to CSS markup.'
         ),
@@ -20722,7 +20722,7 @@ var Landing = function Landing() {
             (0, _react.createElement)(
               'code',
               null,
-              '.css\';'
+              '.css.js'
             ),
             ' File Result'
           )
