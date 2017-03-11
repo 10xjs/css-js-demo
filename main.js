@@ -19558,7 +19558,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var section = exports.section = 'List';
 /* demo-hide-start */
-var sources = exports.sources = ['list/list.js', 'list/list.css.js'];
+var sources = exports.sources = ['list/list.js', 'list/list.css.js', 'list/item/item.js', 'list/item/item.css.js'];
 
 var description = exports.description = '\n  <p>\n    Render an unordered (<code>ul</code> style) list.\n  </p>\n';
 /* demo-hide-end */
@@ -32981,7 +32981,7 @@ module.exports = "import List, {ListItem as Item} from '/component/base/list';\n
 /* 671 */
 /***/ (function(module, exports) {
 
-module.exports = "import List, {ListItem as Item} from '/component/base/list';\n/* demo-hide-start */\nimport {createElement} from 'react';\n\nexport const section = 'List';\n\nexport const sources = [\n  'list/list.js',\n  'list/list.css.js',\n];\n\nexport const description = `\n  <p>\n    Render an unordered (<code>ul</code> style) list.\n  </p>\n`;\n/* demo-hide-end */\n\nexport const render = () =>\n  <List>\n    <Item>List item A</Item>\n    <Item>List item B</Item>\n    <Item>List item C</Item>\n  </List>;\n"
+module.exports = "import List, {ListItem as Item} from '/component/base/list';\n/* demo-hide-start */\nimport {createElement} from 'react';\n\nexport const section = 'List';\n\nexport const sources = [\n  'list/list.js',\n  'list/list.css.js',\n  'list/item/item.js',\n  'list/item/item.css.js',\n];\n\nexport const description = `\n  <p>\n    Render an unordered (<code>ul</code> style) list.\n  </p>\n`;\n/* demo-hide-end */\n\nexport const render = () =>\n  <List>\n    <Item>List item A</Item>\n    <Item>List item B</Item>\n    <Item>List item C</Item>\n  </List>;\n"
 
 /***/ }),
 /* 672 */
